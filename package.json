@@ -1,0 +1,28 @@
+{
+  "name": "fastify-research",
+  "version": "1.0.0",
+  "description": "Fastify Research",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "prettier": "prettier --write src"
+  },
+  "keywords": [
+    "fastify",
+    "javascript",
+    "nodejs",
+    "server"
+  ],
+  "author": "Andrey Golik",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.18.0",
+    "fastify-swagger": "^4.8.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.2"
+  }
+}
